@@ -32,8 +32,11 @@ Platform Engineering, Backstage, Kubernetes, ArgoCD, Docker, GitOps, Helm, GitHu
 ![alt text](d01_Images/image.png)
 
 - Platform engineer is build on top of DevOps
-    - DevOps bridges the gap between Dev and Ops. (Developers and Operations work together)
-    - Platform emgineer use fundation of DevOps to speed up software delivery. (Provide the infrastructure that support the collaboration between Developers and Operations.)
+    - DevOps bridges the gap between Dev and Ops to speed up software delivery. (Developers and Operations work together)
+    - Platform emgineer use fundation of DevOps to speed up software delivery in a certain way, which is by crearting specialized platforms. (Provide the infrastructure that support the collaboration between Developers and Operations.)
+    - **Platform Engineer (https://en.wikipedia.org/wiki/Platform_engineering)** is:
+        - Platform engineering is a software engineering discipline focused on the development of self-service toolchains, services, and processes to create an internal developer platform (IDP). The shared IDP can be utilized by software development teams, enabling them to innovate.
+        - Platform engineering uses components like configuration management, infrastructure orchestration, and role-based access control to improve reliability. The discipline is associated with DevOps and platform as a service practices.
 
 ## Internal Developer Platform (IDP)
 - IDP is the tool that bring platform Engineer to life
