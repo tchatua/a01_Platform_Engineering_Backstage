@@ -28,5 +28,14 @@ Platform Engineering, Backstage, Kubernetes, ArgoCD, Docker, GitOps, Helm, GitHu
 - Cloud Engineers interested in self-service platforms and developer enablement
 - Software & Infrastructure Engineers with a DevOps background who want to master Internal Developer Platforms (IDPs)
 
-## My Global Picture DevOps daily tasks 
+## Global Picture DevOps daily tasks 
 ![alt text](d01_Images/image.png)
+
+- Platform engineer is build on top of DevOps
+    - DevOps bridges the gap between Dev and Ops. (Developers and Operations work together)
+    - Platform emgineer use fundation of DevOps to speed up software delivery. (Provide the infrastructure that support the collaboration between Developers and Operations.)
+
+## Internal Developer Platform (IDP)
+- IDP is the tool that bring platform Engineer to life
+    - its a self service platform that gives developers everything they need to build, deploy and manage their applications.
+    
