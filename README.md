@@ -90,10 +90,12 @@ and infrastructure and enables your product teams to ship high-quality code quic
 
 ## My Plan is to split thos tasks by creating microservices using the best DevOps practices
 - 1st, I'm creating the GitHub repository because I want to give to developer the power of share and versioning their code
-- 2nd, I'm going to write a basic application, a very basic API using Python so that my developer can start from there. Most of the time, I get the code from my developers.
-- Then I going to containerize the app by writing the Dockerfile, building the docker container and pushing it to the docker registry.
-- After that I'm going to create a CI pipeline that does all previous steps for me. So every time any developer changes the code, a new container will be built and pushed to the container registry
-
+- 2nd, Most of the time, I get the code from my developers. (I'm going to write a basic application, a very basic API using Python so that my developer can start from there.)
+- Then I going to containerize the app by writing the Dockerfile, 
+- Building that app using Docker to create a docker container and pushing it to the docker container registry.
+- After that I'm going to create a CI pipeline that does all previous steps for me. 
+    - So every time any developer changes the code, a new container will be built and pushed to the container registry
+![alt text](d01_Images/Buils_and_Deply_Pipeline.png)
 - **Once the build and push is completed, I'm going to deploy the container on Kubernetes.**
 - I'm going to be using to deploy:
     - K8s files using kubectl
@@ -103,3 +105,7 @@ and infrastructure and enables your product teams to ship high-quality code quic
 ![alt text](d01_Images/Continuous_CICD.png)
     - python-app repo with all the code here: https://github.com/ricardoandre97/python-app
 
+## Creating GitHub Repository
+- git clone https://github.com/tchatua/python-app.git
+
+## Installing Docker on my Computer
