@@ -1,6 +1,10 @@
 # a01_Platform_Engineering_Backstage
 Platform Engineering, Backstage, Kubernetes, ArgoCD, Docker, GitOps, Helm, GitHub Actions &amp; CI/CD to build IDPs
 
+## URL:
+- python-app repo with all the code here: https://github.com/ricardoandre97/python-app
+
+
 ## Goal:
 - Deep understanding of Platform Engineering and Internal Developer Portals (IDPs)
 - Automate DevOps workflows using Backstage and Platform Engineering best practices
@@ -97,4 +101,5 @@ and infrastructure and enables your product teams to ship high-quality code quic
     - and ArgoCD
 - Soon as I feel comfortable with the deployment, I automate the entire CI/CD of that application through a continuous CI/CD pipeline using GitHub actions
 ![alt text](d01_Images/Continuous_CICD.png)
+    - python-app repo with all the code here: https://github.com/ricardoandre97/python-app
 
