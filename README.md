@@ -109,3 +109,24 @@ and infrastructure and enables your product teams to ship high-quality code quic
 - git clone https://github.com/tchatua/python-app.git
 
 ## Installing Docker on my Computer
+
+- URL: https://docs.docker.com/desktop/setup/install/windows-install/
+```
+$ docker version
+Client:
+ Version:           28.5.1
+ API version:       1.51
+ Go version:        go1.24.8
+ Git commit:        e180ab8
+ Built:             Wed Oct  8 12:19:16 2025
+ OS/Arch:           windows/amd64
+ Context:           default
+error during connect: in the default daemon configuration on Windows, the docker client must be run with elevated privileges to connect: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.51/version": open //./pipe/docker_engine: The system cannot find the file specified.
+```
+
+## Installing Python and Pip
+
+```
+$ python3 --version
+Python 3.9.13
+```
